@@ -1,0 +1,456 @@
+/* -- RESETS -- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	background-color: white;
+	margin: 0;
+}
+h4{
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 400;
+}
+h2, h1{
+	font-size: 40px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+p{
+	font-size: 18px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+.tarjetas{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.camiones{
+	display: inline-block;
+	float: left;
+	margin-top: -4px;
+	width: 60px;
+}
+.cleaner{
+	clear: both;
+}
+#cleansection{
+	margin-top: 0;
+	padding: 0;
+	padding-bottom: 1%;
+	background: none; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 50% 0;
+	height: 100%;
+	overflow: auto;
+}
+/* --------------- */
+/* ESTILOS CONTENEDOR 1 */
+section{
+	margin-top: 0;
+	padding: 3.5% 10% 3.5%;
+	background: url(../images/pattern-generico-01.png) no-repeat center center fixed;
+	background-color: rgb(26, 106, 180); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: 50% 0;
+	height: 100%;
+	overflow: auto;
+}
+#contenedor1 h1{
+	color: white;
+	text-align: center;
+	margin-top: 1%;
+}
+#tablaventas{
+	margin-top: 5%;
+}
+/* ESTILOS DE LA TABLA */
+.semi-title{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    color: #e5332a;
+    font-weight: 600;
+}
+/* ------------------- */
+/* FIN ESTILOS CONTENEDOR 1 */
+/* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
+#contenedorshare{
+	padding: 2% 0;
+	float: right;
+	width: 35%;
+	text-align: center;
+	margin-top: 1%;
+	font-size: 20px;
+}
+#comparte1{
+	float: left;
+	display: inline;
+	margin-right: 3%;
+	margin-top: 2.5%;
+	font-weight: 300;
+}
+/* -------------------------------------------------- */
+/* ESTILOS CONTENEDOR 2*/
+#contenedor2{
+	display: block;
+	margin: 0;
+	padding: 0 17.5%;
+	margin-bottom: 10%;
+}
+#contenedor2 h2{
+	font-size: 40px;
+	color: rgb(16, 100, 134);
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 2%;
+}
+#contenedor2 #parrafo{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+#imagen1{
+	text-align: center;
+	padding: 2% 0 3%;
+	width: 100%;
+}
+/* ESTILOS BOTÓN */
+.btn-no-border{
+	border: none;
+}
+.btn-success {
+    box-shadow: 0 -3px 0 #64a70b inset;
+    background: #72bf0d;
+}
+.btn-success:hover {
+    box-shadow: 0 -4px 0 #5e9e0b inset;
+    background: #78c90e;
+    border: none;
+}
+.btn-success:focus {
+    background: #64a70b !important;
+    box-shadow: 0 -5px 0 #5e9e0b inset;
+    border: none;
+}
+.btn {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a, a:active, a:focus {
+    outline: none;
+}
+#tamaño{
+	width: 18%;
+	height: 46px;
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.52857;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+#botoncomprar{
+	text-align: center;
+	padding-bottom: 2.5%;
+}
+/* FIN ESTILOS BOTÓN */
+/* FIN ESTILOS CONTENEDOR 2 */
+/* DISPOCISION DE COLUMNAS */
+.columnas1{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    padding-bottom: 2%;
+}
+.columnas2{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+    padding-bottom: 0;
+}
+/* ---------------------- */
+/* ESTILOS CONTENEDOR 3 */
+#contenedor3{
+	display: block;
+	margin: 0;
+	padding: 1.5% 0 2%;
+	background-color: rgb(216, 95, 88);
+	color: white;
+	font-family: 'Open Sans', Sans-Serif;
+	text-align: center;
+}
+#contenedor3 h2{
+	padding-bottom: 1.5%;
+}
+#contenedor3 p{
+	padding: 0% 17.5%;
+	padding-top: 2%;
+}
+#loremtickets{
+	width: 12%;
+	margin-top: -10.9%;
+}
+/* FIN ESTILOS CONTENEDOR 3 */
+/* ESTILOS CONTENEDOR 4 */
+#contenedor4{
+	padding: 2% 17.5% 0%;
+}
+#contenedor4 p{
+	color: rgb(150, 150, 150);
+	font-size: 15px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+}
+#video{
+	padding: 0% 0% 3%;
+}
+#video1{
+	width: 100%;
+	height: 480px;
+}
+/* FIN ESTILOS CONTENEDOR 4 */
+/* ESTILOS CONTENEDOR 5 */
+#contenedor5{
+	display: block;
+	margin: 0;
+	padding: 0 17.5% 1.5%;
+}
+#contenedor5 h3{
+	font-size: 40px;
+	font-family: 'Open Sans', Sans-Serif;
+	font-weight: 300;
+	color: rgb(47, 152, 206);
+	text-align: center;
+	padding-top: 1%;
+}
+#contenedor5 p{
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+	margin: 0;
+	padding: 1.5% 0;
+}
+#manoticket{
+	width: 30%;
+}
+#auxtabla{
+	padding: 0 10%;
+	margin-bottom: 2%;
+}
+#auxcensvg{
+	text-align: center;
+}
+/* FIN ESTILOS CONTENEDOR 5 */
+/* ESTILOS CONTENEDOR 10 */
+#locationsvg{
+	width: 11%;
+	margin-bottom: 1.5%;
+}
+#contenedor10 #tablaventas{
+	width: 80%;
+	margin: auto;
+}
+#mapaseparacion{
+	padding: 10%;
+}
+#contenedor10 iframe{
+	margin-left: 20%;
+}
+#mapasize{
+	width: 60%;
+	height: 450px;
+	margin-bottom: 2%;
+}
+/* FIN ESTILOS CONTENEDOR 10 */
+/* EXTRAS // FINAL DE PÁGINA */
+#gracias{
+	text-align: center;
+}
+#graciassvg{
+	display: inline;
+	width: 40%;
+	padding-bottom: 3%;
+}
+#pngcards{
+    width: 100%;
+    height: 105px;
+    background: url('http://www.entradafan.com.ar/VistasNew/images/png/sprite_png.png') -72px -95px;
+    background-repeat: no-repeat;
+    border-top: 1px dashed #6B6F79;
+    border-bottom: 1px dashed #6B6F79;
+}
+.invisible{
+	display: none;
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+ul.share-buttons{
+	list-style: none;
+	padding: 0;
+}
+ul.share-buttons li{
+	display: inline;
+}
+#primerboton{
+	margin-right: 1.5%;
+}
+#contenedorshare2{
+	margin: auto;
+	text-align: center;
+	width: 25%;
+}
+#comparte2{
+	line-height: 40px;
+	font-size: 15px;
+	color: rgb(150, 150, 150);
+}
+@media (max-width: 430px){
+/* ESTILOS CONTENEDOR 1 */
+	#contenedor1{
+		padding: 3.5% 10% 3.5%;
+	}
+	#contenedor1 h1{
+		color: white;
+		text-align: center;
+	}
+	#tablaventas{
+		margin-top: 5%;
+		width: 80%;
+	}
+/* ESTILOS CONTENEDOR COMPARTIR ESTA NOTA (DE ARRIBA) */
+	#contenedorshare{
+		float: right;
+		width: 70%;
+		padding-right: 0;
+	}
+	#comparte1{
+		float: left;
+		display: inline;
+		margin-top: 2.5%;
+		font-size: 15px;
+	}
+/* ESTILOS CONTENEDOR 2*/
+	#contenedor2{
+		display: block;
+		margin: 0;
+		padding: 3% 5% 25%;
+	}
+	#contenedor2 h3{
+		font-size: 20px;
+		color: rgb(233, 95, 88);
+		font-weight: 600;
+	}
+	#contenedor2 p{
+		font-size: 15px;
+		color: rgb(150, 150, 150);
+	}
+	#imagen1{
+		text-align: center;
+		padding: 2% 0 3%;
+		width: 100%;
+	}
+/* DISPOCISION DE LAS COLUMNAS */
+	.columnas1{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+	.columnas2{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	    -webkit-column-gap: 0; /* Chrome, Safari, Opera */
+	    -moz-column-gap: 0; /* Firefox */
+    	column-gap: 0;
+    	padding-bottom: 2%;
+	}
+/* ESTILOS CONTENEDOR 3 */
+	#contenedor3 h2{
+		padding-bottom: 1.5%;
+		padding: 0 3%;
+	}
+	#contenedor3 p{
+		padding: 0% 5%;
+	}
+	#loremtickets{
+		width: 30%;
+		margin-top: -25%;
+	}
+/* ESTILOS CONTENEDOR 4 */
+	#contenedor4{
+		padding: 0 5%;
+	}
+	#contenedor4 p{
+		padding: 3% 0;
+	}
+/* ESTILOS CONTENEDOR 5 */
+	#contenedor5{
+		padding: 0 5%;
+	}
+	#manoticket{
+		width: 55%;
+	}
+/* ESTILOS CONTENEDOR 10*/
+	#locationsvg{
+		width: 30%;
+	}
+	#contenedor10 #tablaventas{
+		width: 65%;
+		margin: auto;
+	}
+	#mapasize{
+		width: 100%;
+		height: 300px;
+	}
+	#contenedor10 iframe{
+		margin-left: 0;
+	}
+	#contenedorshare2{
+		margin: auto;
+		text-align: center;
+		width: 80%;
+	}
+	#graciassvg{
+		display: inline;
+		width: 100%;
+		padding-bottom: 3%;
+	}
+	#mapaseparacion{
+		padding: 1%;
+	}
+	#invisibleres{
+		display: none;
+	}
+	#visibleres{
+		display: block;
+	}
+};
